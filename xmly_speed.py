@@ -58,7 +58,7 @@ if "XMLY_SPEED_COOKIE" in os.environ:
 devices = []
 notify_time = 19                            # 通知时间,24小时制,默认19
 XMLY_ACCUMULATE_TIME = 1                    # 希望刷时长的,此处置1,默认打开;关闭置0
-UserAgent = "ting_v2.0.12_c5(CFNetwork, iOS 11.4, iPhone7,1)"
+UserAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 iting/2.0.12 kdtunion_iting/1.0 iting(main)/2.0.12/ios_1"
 # 非iOS设备的需要的自行修改,自己抓包 与cookie形式类似
 
 
@@ -105,7 +105,7 @@ def read(cookies):
         'Host': '51gzdhh.xyz',
         'accept': 'application/json, text/plain, */*',
         'origin': 'http://xiaokuohao.work',
-        'user-agent': 'ting_v2.0.12_c5(CFNetwork, iOS 11.4, iPhone7,1)',
+        'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 iting/2.0.12 kdtunion_iting/1.0 iting(main)/2.0.12/ios_1',
         'referer': 'http://xiaokuohao.work/static/web/dxmly/index.html',
         'accept-encoding': 'gzip, deflate',
         'accept-language': 'zh-CN,en-US;q=0.8',
@@ -127,7 +127,7 @@ def read(cookies):
         'content-length': '37',
         'accept': 'application/json, text/plain, */*',
         'origin': 'http://xiaokuohao.work',
-        'user-agent': 'ting_v2.0.12_c5(CFNetwork, iOS 11.4, iPhone7,1)',
+        'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 iting/2.0.12 kdtunion_iting/1.0 iting(main)/2.0.12/ios_1',
         'content-type': 'application/x-www-form-urlencoded',
         'referer': 'http://xiaokuohao.work/static/web/dxmly/index.html',
         'accept-encoding': 'gzip, deflate',
@@ -154,7 +154,7 @@ def read(cookies):
         'Host': '51gzdhh.xyz',
         'accept': 'application/json, text/plain, */*',
         'origin': 'http://xiaokuohao.work',
-        'user-agent': 'ting_v2.0.12_c5(CFNetwork, iOS 11.4, iPhone7,1)',
+        'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 iting/2.0.12 kdtunion_iting/1.0 iting(main)/2.0.12/ios_1',
         'referer': 'http://xiaokuohao.work/static/web/dxmly/index.html',
         'accept-encoding': 'gzip, deflate',
         'accept-language': 'zh-CN,en-US;q=0.8',
@@ -209,7 +209,7 @@ def stage(cookies):
         'Host': 'm.ximalaya.com',
         'Accept': 'application/json, text/plain, */*',
         'Connection': 'keep-alive',
-        'User-Agent': 'ting_v2.0.12_c5(CFNetwork, iOS 11.4, iPhone7,1)',
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 iting/2.0.12 kdtunion_iting/1.0 iting(main)/2.0.12/ios_1',
         'Accept-Language': 'zh-cn',
         'Referer': 'https://m.ximalaya.com/growth-ssr-speed-welfare-center/page/welfare',
         'Accept-Encoding': 'gzip, deflate, br',
@@ -232,7 +232,7 @@ def stage(cookies):
                 'Content-Type': 'application/json',
                 'Accept': '*/*',
                 'Connection': 'keep-alive',
-                'User-Agent': 'ting_v2.0.12_c5(CFNetwork, iOS 11.4, iPhone7,1)',
+                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 iting/2.0.12 kdtunion_iting/1.0 iting(main)/2.0.12/ios_1',
                 'Accept-Language': 'zh-Hans-CN;q=1, en-CN;q=0.9',
                 'Accept-Encoding': 'gzip, deflate, br',
                 'X-Requested-With': 'XMLHttpRequest',
